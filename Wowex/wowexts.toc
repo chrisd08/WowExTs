@@ -1,0 +1,25 @@
+## Interface: 80000
+## Title: WowExTs
+## SavedVariables: HeroCacheDB, HeroLibDB, CoreEnabled, AoEEnabled, CooldownsEnabled, InterruptsEnabled
+## Author: lolp1/silver9172
+## Version: 0.0
+#@no-lib-strip@
+embeds.xml
+#@end-no-lib-strip@
+
+sdk.lua
+wownet.lua
+wowex.lua
+events.lua
+constants.lua
+spell.lua
+targets.lua
+lists.lua
+ui.lua
+healing.lua
+
+RequireStub.lua
+lualib_bundle.lua
+
+build/rotations/classic/warrior/spellbook.lua
+build/rotations/classic/warrior/leveling.lua

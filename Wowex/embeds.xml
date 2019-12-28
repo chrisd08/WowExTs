@@ -1,0 +1,10 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+    ..\FrameXML\UI.xsd">
+	<Script file="libs\LibStub\LibStub.lua"/>
+	<Include file="libs\StdUi\StdUi.xml"/>
+	<Include file="libs\LibPlayerSpells-1.0\lib.xml" />
+	<Include file="libs\LibClassicDurations\LibClassicDurations.xml"/>
+	<Script file="libs\HeroCache\Main.lua"/>
+	<Script file="Libs\!LibDraw\LibDraw.lua"/>
+	<Script file="Libs\LibClassicCasterino\LibClassicCasterino.lua"/>
+</Ui>
