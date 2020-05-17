@@ -10,14 +10,11 @@
     "moduleResolution": "node",
     "rootDir": "./src",
     "outDir": "addon/dist",
-    "typeRoots": [
-      "src/@types",
-      "./node_modules/@types",
-      "./node_modules/@wartoshika/wow-classic-declarations"
-    ],
+    "typeRoots": ["./node_modules/@types", "./node_modules"],
+    "types": ["@wartoshika/wow-classic-declarations", "lua-types/jit"],
     "skipLibCheck": true
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "types/**/*"],
   "exclude": ["./transform/**"],
   "tstl": {
     "luaTarget": "JIT",
