@@ -1,0 +1,1 @@
+mklink /d "Z:\World of Warcraft\_classic_\Interface\AddOns\WowExTs" "C:\Users\vitalic\Desktop\WowExTs\addon"

@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es2019",
+    "lib": ["es2019", "dom"],
+    "strict": true,
+    "jsx": "react",
+    "noImplicitAny": true,
+    "preserveConstEnums": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "rootDir": "./src",
+    "outDir": "addon/dist",
+    "typeRoots": [
+      "src/@types",
+      "./node_modules/@types",
+      "./node_modules/@wartoshika/wow-classic-declarations"
+    ],
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["./transform/**"],
+  "tstl": {
+    "luaTarget": "JIT",
+    "luaLibImport": "require",
+    "noHeader": true,
+    "luaPlugins": [{ "name": "./transform/module.ts" }]
+  }
+}

@@ -43,4 +43,4 @@ luac.out
 node_modules
 .eslintcache
 libs
-build
+dist
